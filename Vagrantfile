@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "ubuntu/xenial64"
 
-  config.vm.network "forwarded_port", guest: 8000, host: 3333
+config.vm.network "forwarded_port", guest: 8000, host: 3333
 
 
   # Disable automatic box update checking. If you disable this, then
